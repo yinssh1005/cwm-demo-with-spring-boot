@@ -9,6 +9,6 @@ class FooController {
 
     @GetMapping("/greeting")
     public String index() {
-        return "Hello from Spring boot service!";
+        return "Greetings from Spring boot service!";
     }
 }
